@@ -14,9 +14,11 @@ function start(route, handle) {
       console.log('Received POST data chunk ' + 
     postDataChunk + '.');
     });
+
     request.addListener('end', function() {
       route(handle, pathname, response, postData);
     });
+    
   }
 
   http.createServer(onRequest).listen(8888);
