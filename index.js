@@ -1,5 +1,5 @@
 let server = require('./server');
+let router = require('./router');
 
 
-
-server.start();
+server.start(router.route);
