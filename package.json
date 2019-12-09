@@ -20,6 +20,7 @@
   "homepage": "https://github.com/sethripman/node-beginner-code-along#readme",
   "dependencies": {
     "eslint": "^6.7.2",
+    "formidable": "^1.2.1",
     "node": "^13.3.0"
   }
 }
